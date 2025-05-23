@@ -1,0 +1,35 @@
+body {
+  background-color: #1a1a1a;
+  color: #f0e6d2;
+  font-family: 'Georgia', serif;
+  text-align: center;
+  padding: 50px;
+}
+
+button {
+  background-color: #4b0082;
+  color: #f0e6d2;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: #6a0dad;
+}
+
+#cardDisplay {
+  margin-top: 30px;
+}
+
+#cardImage {
+  width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.hidden {
+  display: none;
+}
