@@ -14,9 +14,7 @@ const cards = [
     description: "Інтуїція, підсвідомість, таємниці.",
     image: "https://upload.wikimedia.org/wikipedia/commons/8/88/RWS_Tarot_02_High_Priestess.jpg"
   }
-  // Додамо ще більше карт пізніше
 ];
-
 document.getElementById("drawCard").addEventListener("click", () => {
   const card = cards[Math.floor(Math.random() * cards.length)];
   document.getElementById("cardImage").src = card.image;

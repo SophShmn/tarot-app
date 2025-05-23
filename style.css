@@ -5,7 +5,6 @@ body {
   text-align: center;
   padding: 50px;
 }
-
 button {
   background-color: #4b0082;
   color: #f0e6d2;
@@ -15,21 +14,17 @@ button {
   cursor: pointer;
   border-radius: 10px;
 }
-
 button:hover {
   background-color: #6a0dad;
 }
-
 #cardDisplay {
   margin-top: 30px;
 }
-
 #cardImage {
   width: 200px;
   height: auto;
   margin-bottom: 20px;
 }
-
 .hidden {
   display: none;
 }
